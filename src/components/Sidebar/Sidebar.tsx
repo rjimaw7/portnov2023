@@ -39,8 +39,9 @@ const Sidebar = () => {
           </Link>
           <a
             className="hover:text-red-300"
-            href="../../../public/resume/mate-resume.pdf"
-            download="mate-resume.pdf"
+            href="/resume/mate-resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             RESUME
           </a>
